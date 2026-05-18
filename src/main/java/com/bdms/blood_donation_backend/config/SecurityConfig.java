@@ -57,7 +57,8 @@ public class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowedOrigins(List.of(
                 "http://localhost:5173",
-                "https://your-netlify-app.netlify.app"
+                "https://comforting-daffodil-2ea8d3.netlify.app",
+                "https://bdms-web.onrender.com"
         ));
         config.setAllowedMethods(List.of(
                 "GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"  // ← PATCH added
